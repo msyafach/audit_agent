@@ -77,7 +77,12 @@ class ConfigManager:
         """Create Gemini model configuration"""
         
         if api_key is None:
-            api_key = os.getenv("GOOGLE_API_KEY", "AIzaSyCjYSIkha4ZAeIR7yXe3TH4Pk7Ko8gJmZU")
+            api_key = os.getenv("GOOGLE_API_KEY")
+            if not api_key:
+                raise ValueError(
+                    "Google API key is required. Please set GOOGLE_API_KEY environment variable "
+                    "or pass api_key parameter explicitly."
+                )
         
         model_id = cls.GEMINI_MODELS.get(model_name, model_name)
         

@@ -30,8 +30,13 @@ audit_system.py          # Main unified interface
 
 ### **Option 1: Gemini AI (Cloud)**
 ```bash
-# Set API key
+# Set API key (SECURE METHODS)
+# Option 1: Environment variable (recommended)
 export GOOGLE_API_KEY="your_api_key_here"
+
+# Option 2: .env file (create from .env.example)
+cp .env.example .env
+# Then edit .env file with your actual API key
 
 # Run audit
 uv run python audit_system.py --provider gemini --model gemini-2.0-flash
@@ -69,6 +74,20 @@ uv run python audit_system.py \
   --retries 3 \
   --debug
 ```
+
+## 🔒 Security Best Practices
+
+⚠️ **NEVER commit API keys to version control**
+
+✅ **Secure methods to provide API keys:**
+1. Environment variables: `export GOOGLE_API_KEY="your_key"`
+2. `.env` file (use `.env.example` as template)
+3. Command line parameter: `--api-key your_key`
+
+❌ **Never do this:**
+- Hard-code API keys in source files
+- Commit `.env` files to Git
+- Share API keys in chat/email
 
 ## 🔧 Configuration
 
