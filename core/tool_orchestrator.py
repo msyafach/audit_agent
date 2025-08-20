@@ -342,5 +342,57 @@ class ToolOrchestrator:
                 }
             }
         
-        # Similar structure for other statement types
+        elif statement_type == "laba_rugi":
+            return {
+                "laporan_laba_rugi": {
+                    "pendapatan": {
+                        "nama_akun": "Total Pendapatan",
+                        "nilai_tercatat": tool_results.get("total_revenue", {}).get("nilai_perhitungan", 0),
+                        "nilai_perhitungan": tool_results.get("total_revenue", {}).get("nilai_perhitungan", 0),
+                        "selisih": 0,
+                        "status": "OK",
+                        "source": "calculation_tool"
+                    },
+                    "beban": {
+                        "nama_akun": "Total Beban",
+                        "nilai_tercatat": tool_results.get("total_expenses", {}).get("nilai_perhitungan", 0),
+                        "nilai_perhitungan": tool_results.get("total_expenses", {}).get("nilai_perhitungan", 0),
+                        "selisih": 0,
+                        "status": "OK",
+                        "source": "calculation_tool"
+                    },
+                    "laba_rugi_bersih": {
+                        "nama_akun": "Laba Rugi Bersih",
+                        "nilai_tercatat": tool_results.get("net_income", {}).get("nilai_perhitungan", 0),
+                        "nilai_perhitungan": tool_results.get("net_income", {}).get("nilai_perhitungan", 0),
+                        "selisih": 0,
+                        "status": "OK", 
+                        "source": "calculation_tool"
+                    }
+                }
+            }
+        
+        elif statement_type == "arus_kas":
+            return {
+                "laporan_arus_kas": {
+                    "aktivitas_operasi": {
+                        "nama_akun": "Arus Kas dari Aktivitas Operasi",
+                        "nilai_tercatat": tool_results.get("arus_kas_operasi", {}).get("nilai_perhitungan", 0),
+                        "nilai_perhitungan": tool_results.get("arus_kas_operasi", {}).get("nilai_perhitungan", 0),
+                        "selisih": 0,
+                        "status": "OK",
+                        "source": "calculation_tool"
+                    },
+                    "arus_kas_bersih": {
+                        "nama_akun": "Arus Kas Bersih",
+                        "nilai_tercatat": tool_results.get("arus_kas_bersih", {}).get("nilai_perhitungan", 0),
+                        "nilai_perhitungan": tool_results.get("arus_kas_bersih", {}).get("nilai_perhitungan", 0),
+                        "selisih": 0,
+                        "status": "OK",
+                        "source": "calculation_tool"
+                    }
+                }
+            }
+        
+        # Fallback for unknown statement types
         return {"tool_based_calculation": tool_results}

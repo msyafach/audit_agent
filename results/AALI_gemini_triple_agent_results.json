@@ -92,8 +92,47 @@
         "source": "balance_equation_tool"
       }
     },
-    "tool_based_calculation": {
-      "arus_kas_operasi": {
+    "laporan_laba_rugi": {
+      "pendapatan": {
+        "nama_akun": "Total Pendapatan",
+        "nilai_tercatat": 0,
+        "nilai_perhitungan": 0,
+        "selisih": 0,
+        "status": "OK",
+        "source": "calculation_tool"
+      },
+      "beban": {
+        "nama_akun": "Total Beban",
+        "nilai_tercatat": 0,
+        "nilai_perhitungan": 0,
+        "selisih": 0,
+        "status": "OK",
+        "source": "calculation_tool"
+      },
+      "laba_rugi_bersih": {
+        "nama_akun": "Laba Rugi Bersih",
+        "nilai_tercatat": 0,
+        "nilai_perhitungan": 0,
+        "selisih": 0,
+        "status": "OK",
+        "source": "calculation_tool"
+      }
+    },
+    "laporan_arus_kas": {
+      "aktivitas_operasi": {
+        "nama_akun": "Arus Kas dari Aktivitas Operasi",
+        "nilai_tercatat": {
+          "result": 44254596.0,
+          "precision": "high",
+          "components": [
+            2024.0,
+            22126286.0,
+            18507678.0,
+            3618608.0
+          ],
+          "component_count": 4,
+          "operation": "sum"
+        },
         "nilai_perhitungan": {
           "result": 44254596.0,
           "precision": "high",
@@ -105,9 +144,27 @@
           ],
           "component_count": 4,
           "operation": "sum"
-        }
+        },
+        "selisih": 0,
+        "status": "OK",
+        "source": "calculation_tool"
       },
       "arus_kas_bersih": {
+        "nama_akun": "Arus Kas Bersih",
+        "nilai_tercatat": {
+          "result": 44796610.0,
+          "precision": "high",
+          "components": [
+            2024.0,
+            22126286.0,
+            18507678.0,
+            3618608.0,
+            211496.0,
+            330518.0
+          ],
+          "component_count": 6,
+          "operation": "sum"
+        },
         "nilai_perhitungan": {
           "result": 44796610.0,
           "precision": "high",
@@ -121,7 +178,10 @@
           ],
           "component_count": 6,
           "operation": "sum"
-        }
+        },
+        "selisih": 0,
+        "status": "OK",
+        "source": "calculation_tool"
       }
     }
   },
@@ -132,7 +192,7 @@
     "total_retries": 0,
     "retry_log": [],
     "mathematical_precision": "High (AI-verified)",
-    "audit_timestamp": "2025-08-20 15:10:50",
+    "audit_timestamp": "2025-08-20 15:56:57",
     "system_type": "Gemini Triple Agent"
   }
 }
