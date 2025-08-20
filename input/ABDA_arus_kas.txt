@@ -1,0 +1,61 @@
+Laporan arus kas 31 December 2024
+ 
+Arus kas dari aktivitas operasi 
+Penerimaan premi asuransi 838,571,690
+Penerimaan klaim reasuransi 2,830,188
+Penerimaan komisi 
+Penerimaan klaim retrosesi 
+Pembayaran komisi ( 107,231,849 )
+Pembayaran premi reasuransi ( 55,343,558 )
+Pembayaran klaim dan manfaat asuransi ( 349,756,875 )
+Pembayaran premi retrosesi 
+Pembayaran beban underwriting lainnya 
+Pembayaran beban umum dan administrasi ( 379,386,979 )
+Pembayaran beban pemasaran 
+Pembayaran gaji dan tunjangan 
+Pembayaran pajak penghasilan badan ( 23,177,475 )
+Penerimaan bunga dari aktivitas operasi 
+Pembayaran bunga dari aktivitas operasi 
+Penerimaan pengembalian (pembayaran) pajak penghasilan dari aktivitas operasi 
+Pengembalian (penempatan) uang jaminan 
+Penerimaan (pengeluaran) kas lainnya dari aktivitas operasi 17,927,154
+Jumlah arus kas bersih yang diperoleh dari (digunakan untuk) aktivitas operasi ( 55,567,704 )
+Arus kas dari aktivitas investasi 
+Penerimaan hasil investasi 173,263,083
+Penerimaan dari penjualan investasi 
+ 
+Penerimaan dari penjualan aset tetap 111,702
+Pembayaran untuk perolehan aset tetap ( 6,819,996 )
+Penerimaan dari penjualan properti investasi 
+Pembayaran untuk perolehan properti investasi 
+Penerimaan dari penjualan aset takberwujud 
+Pencairan (penempatan) aset keuangan nilai wajar melalui pendapatan komprehensif lainnya ( 412,385,444 )
+Penempatan aset keuangan biaya perolehan diamortisasi 
+Pencairan aset keuangan biaya perolehan diamortisasi 
+Pembayaran untuk perolehan aset takberwujud 
+Penerimaan dari penjualan aset non-keuangan lainnya 
+Pembayaran untuk perolehan aset non-keuangan lainnya 
+Penerimaan dari (pembayaran kepada) pinjaman polis 
+Penerimaan dividen dari aktivitas investasi 1,339,609
+Penerimaan bunga dari aktivitas investasi 
+Pembayaran bunga dari aktivitas investasi 
+Penerimaan pengembalian (pembayaran) pajak penghasilan dari aktivitas investasi 
+Penerimaan (pengeluaran) kas lainnya dari aktivitas investasi 
+Jumlah arus kas bersih yang diperoleh dari (digunakan untuk) aktivitas investasi ( 244,491,046 )
+Arus kas dari aktivitas pendanaan 
+Pembayaran dividen dari aktivitas pendanaan 
+Penerimaan dari penerbitan saham biasa 
+Penerimaan dari penerbitan saham preferen 
+Penerimaan dari penambahan kepemilikan dari non-pengendali 
+Pembayaran biaya emisi saham 
+Penerimaan bunga dari aktivitas pendanaan 
+Pembayaran bunga dari aktivitas pendanaan 
+Penerimaan pengembalian (pembayaran) pajak penghasilan dari aktivitas pendanaan 
+Penerimaan (pengeluaran) kas lainnya dari aktivitas pendanaan 
+Jumlah arus kas bersih yang diperoleh dari (digunakan untuk) aktivitas pendanaan 
+Jumlah kenaikan (penurunan) bersih kas dan setara kas ( 300,058,750 )
+Kas dan setara kas arus kas, awal periode 722,652,379
+Efek perubahan nilai kurs pada kas dan setara kas 277,334
+Kas dan setara kas dari entitas anak yang didekonsolidasikan 
+Kenaikan (penurunan) kas dan setara kas lainnya 
+Kas dan setara kas arus kas, akhir periode 422,870,963

@@ -1,0 +1,138 @@
+{
+  "audit_footing_laporan_keuangan": {
+    "laporan_posisi_keuangan": {
+      "aset": {
+        "aset_lancar": {
+          "nama_akun": "Jumlah Aset Lancar",
+          "nilai_tercatat": {
+            "result": 3648590.0,
+            "precision": "high",
+            "components": [
+              2024.0,
+              3236012.0,
+              204714.0,
+              165899.0,
+              39941.0
+            ],
+            "component_count": 5,
+            "operation": "sum"
+          },
+          "nilai_perhitungan": {
+            "result": 3648590.0,
+            "precision": "high",
+            "components": [
+              2024.0,
+              3236012.0,
+              204714.0,
+              165899.0,
+              39941.0
+            ],
+            "component_count": 5,
+            "operation": "sum"
+          },
+          "selisih": 0,
+          "status": "OK",
+          "source": "calculation_tool"
+        },
+        "total_aset": {
+          "nama_akun": "Total Aset",
+          "nilai_tercatat": {
+            "result": 16869276.0,
+            "precision": "high",
+            "components": [
+              2024.0,
+              3236012.0,
+              204714.0,
+              165899.0,
+              39941.0,
+              3699970.0,
+              260936.0,
+              72921.0,
+              753221.0,
+              8433638.0
+            ],
+            "component_count": 10,
+            "operation": "sum"
+          },
+          "nilai_perhitungan": {
+            "result": 16869276.0,
+            "precision": "high",
+            "components": [
+              2024.0,
+              3236012.0,
+              204714.0,
+              165899.0,
+              39941.0,
+              3699970.0,
+              260936.0,
+              72921.0,
+              753221.0,
+              8433638.0
+            ],
+            "component_count": 10,
+            "operation": "sum"
+          },
+          "selisih": 0,
+          "status": "OK",
+          "source": "calculation_tool"
+        }
+      },
+      "balancing": {
+        "status": {
+          "assets": 2024.0,
+          "liabilities": 21605.0,
+          "equity": 28793225.0,
+          "liabilities_plus_equity": 28814830.0,
+          "difference": -28812806.0,
+          "is_balanced": false,
+          "status": "Unbalanced",
+          "precision": "high",
+          "operation": "balance_verification"
+        },
+        "source": "balance_equation_tool"
+      }
+    },
+    "tool_based_calculation": {
+      "arus_kas_operasi": {
+        "nilai_perhitungan": {
+          "result": 44254596.0,
+          "precision": "high",
+          "components": [
+            2024.0,
+            22126286.0,
+            18507678.0,
+            3618608.0
+          ],
+          "component_count": 4,
+          "operation": "sum"
+        }
+      },
+      "arus_kas_bersih": {
+        "nilai_perhitungan": {
+          "result": 44796610.0,
+          "precision": "high",
+          "components": [
+            2024.0,
+            22126286.0,
+            18507678.0,
+            3618608.0,
+            211496.0,
+            330518.0
+          ],
+          "component_count": 6,
+          "operation": "sum"
+        }
+      }
+    }
+  },
+  "_gemini_triple_agent_metadata": {
+    "model_used": "gemini-2.0-flash-thinking-exp",
+    "provider": "google_gemini",
+    "consensus_quality": "Perfect",
+    "total_retries": 0,
+    "retry_log": [],
+    "mathematical_precision": "High (AI-verified)",
+    "audit_timestamp": "2025-08-20 15:10:50",
+    "system_type": "Gemini Triple Agent"
+  }
+}
